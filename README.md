@@ -9,7 +9,7 @@
 
 # Camera characterisation
 
-_The practical measurements for characterising the camera for noise correction._
+_The practical measurements for characterising the camera for noise correction. I'm transferring details from my notebook to this but it takes time. Meanwhile, you can reach out if you want to comment on something or suggest an experiment._
 
 </header>
 
