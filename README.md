@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Conjugation of dye and antibody
+# Camera characterisation
 
-_The process of attaching fluorescent molecules to antibodies._
+_The practical measurements for characterising the camera for noise correction._
 
 </header>
 
@@ -21,65 +21,21 @@ _The process of attaching fluorescent molecules to antibodies._
   Encourage users to open new tabs for steps!
 -->
 
-## Materials:
-  - Primary Antibody:
-    [Mouse anti-Human CD45 (HI30)](https://www.ptglab.com/products/CD45-Antibody-65109-1-Ig.htm)
-  - Secondary Antibody:
-    [Goat anti-Mouse IgG](https://www.bioscience.co.uk/product~73025)
-  - Dye:
-    [Atto 647N](https://www.aatbio.com/products/atto-647n-nhs-ester) supplied with an NHS (N-hydroxysuccinimde) ester reactive group.
-  - Phosphate buffered saline (PBS)
-  - Sodium bicarbonate (SoBi), 1M, pH8.5
+## Converting the grey values to the number of electrons
 
-## Methods:
-### Buffer Exchange in Gel Filteration Column
-1. Take an aliquot of protein
-2. A quick spin
-3. Spin for 2min (1000)
-4. Run PBS 4 times (500 µL) and spin 4min (1000)
-5. Run the protein through
-6. Take the protein from the collection tube
+## Converting the number of electrons to photon flux
 
-### Bioconjugation for primary CD45
-1. Add 2 µL of SoBi to the proteins and mix them
-2. Add 2 µL of dye to the mixture
-3. Take 1.5 µL of the buffer to measure the concentration using UV-Vis
-4. Leave it at room temperature (1 hour)
-5. Run the buffer through a new gel filteration column
+## BIAS Measurements
 
-### Bioconjugation for secondary
-1. Add 5 µL of SoBi to the proteins and mix them
-2. Add 6 µL of dye to the mixture
-3. Take 1.5 µL of the buffer to measure the concentration using UV-Vis
-4. Leave it at room temperature (1 hour)
-5. Run the buffer through a new gel filteration column
+## GAIN Measurements
+
+## Read noise calculations
+
+## Signal to noise ratio calculations
+
    
 ## FAQs: 
-**Why do we use sodium bicarbonate?**
-
-A sodium bicarbonate (SoBi) buffer provides the optimal pH for the NHS ester of the dye to react efficiently with the antibody.
-
-**Why do we exchange the buffer in gel filteration column?**
-
-To be able to filter the sodium azide in protein solution. 
-
-## Appendix
-### Calculations for primary CD45 bioconjugation
-| Material | Concentration | Amount | Concentration in mixture |
-| -------- | ------- | ------- | ------- |
-| Mouse Anti-Human CD45 | 3.3 µM | 20 µL | 2.7 µM  | 
-| Atto 647N       | 1 mM   | 2 µL  | 83.3 µM | 
-| SoBi            | 1 M    | 2 µL  | 8e+5 µM |
-
-### Calculations for secondary bioconjugation
-| Material | Concentration | Amount | Concentration in mixture |
-| -------- | ------- | ------- | ------- |
-| Goat Anti-Mouse | 3.3 µM | 50 µL | 2.7 µM  | 
-| Atto 647N       | 1 mM   | 6 µL  | 98.3 µM | 
-| SoBi            | 1 M    | 5 µL  | 8e+5 µM |
-
-> [!NOTE]
-> Concentration in mixture is calculated using: $$Concentration.in.mixture = \frac{Concentration*Amount}{Total Volume}$$
+**What specifications from the camera manufacturer are required?**
  
 <footer>
 
