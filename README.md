@@ -22,10 +22,17 @@ _The practical measurements for characterising the camera for noise correction._
 -->
 
 ## Converting the grey values to the number of electrons
+To convert the electron value given by each pixel to the number of photons received in each pixel.
+
+Number of electrons = (Grey value - Bias)*Gain
 
 ## Converting the number of electrons to photon flux
+Number of photons = Number of electrons/QE in decimal
+
+QE for 647nm wavelength for Prime BSI Express camera is 90%.
 
 ## BIAS Measurements
+Number of photons = Signal in Electrons/QE in decimal
 
 ## GAIN Measurements
 
